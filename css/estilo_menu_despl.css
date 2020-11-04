@@ -1,0 +1,43 @@
+*{font: 16px 'Poppins',Calibri;}
+ul, ol, span {
+	list-style:none;
+}
+
+.nav li a {
+	
+	text-decoration:none;
+	background:#fff;/*color blanco*/
+	color:#7f8c8d;
+	padding:10px 12px;
+	display:block;/*Ajusta el tamaño y el despliegue queda en linea*/
+}
+
+.nav li a:hover {
+	background:#24a684;/*Color verde*/
+	color:#fff;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li ul {
+	display:none;/*todos los sub menus desaparecen*/
+	position: absolute;/*tomen el mismo tamaño que el menu*/
+	min-width: 140px;
+}
+
+/*permite que aparezcan los elementos del submenu*/
+.nav li:hover > ul {
+	display:block;
+}
+
+/*permiten agregar un submenu 3*/	
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}

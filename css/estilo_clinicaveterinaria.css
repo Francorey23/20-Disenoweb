@@ -1,0 +1,114 @@
+/*Borrar todos los estilos de caja*/
+*{
+	margin:0px;
+	padding:0px;
+	/*propiedades definidas para trabajar con Flex-Box*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*Manejo de iconos con icomoon*/
+
+
+
+/*Color y fuente para el cuerpo del documento*/
+body{
+	background:#fff;
+	font-family:'Poppins', sans-serif;
+}
+
+/*Trabajamos los tamaños de los diferentes contenedores de acuerdo a la maquetación*/
+
+.logo {
+width: 20%;
+height: 0px;
+margin: 0px 15px;/*Centra el contenido y da espacio a la derecha al logo 15px*/
+}
+
+.navegacion{
+	width: 60%;
+	height: 60px;
+	margin: 0 auto;
+	
+}
+
+.section1, #section2{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+ /*Ubicamos color letra blanca y fondo color verde a div urgencias 
+ DAMOS UN ALTO height 18px y font 14px..*/
+ .urgencias{
+ 	background:#24a684;
+	color:#fff;
+	height: 25px;
+	font: 14px Arial Narrow;
+}
+/*contiene el texto de encabezado con el numero de celular*/
+.clip{
+	border-radius: 10px;
+	background-image: url("../imagen/slider_can_ad.jpg");
+	background-position: left;
+	color:#fff;
+	height:150px;
+	clear:both;
+	padding:20px 100px;
+	font:30px Calibri;
+}
+
+/*modificamos los article1*/
+
+.article1{
+	background-color:#fff;
+	
+	/*margin centra el texto en la caja horizontalmente*/
+	margin:10px auto;
+	color:#636e72;
+	padding: 10px 10px;
+	font:18px 'Ubuntu', sans-serif;
+	text-align: justify;
+}
+
+h2{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*Texto de la pagina articulo 1*/
+#section2{
+	/*baja el footer */
+	display:flex; /*Utilizamos las propiedades flex-box*/
+	overflow: hidden;
+	justify-content: center; /*centramos el contenido*/
+}
+
+ #article2, #article3, #article4 {
+	background: #24a684;
+	color:#fff;
+	font:18px Calibri;
+	text-align: justify;
+	border-radius: 10px;
+	width: 26%;
+	float: left;
+	padding: 10px;
+	margin: 0 4%;
+	margin-bottom: 2%;
+}
+
+footer{
+
+	background-color: #24a684;
+	color:#fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+	
